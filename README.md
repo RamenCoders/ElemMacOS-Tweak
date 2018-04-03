@@ -30,7 +30,7 @@ _*Contains appearance correction for GTK applications_
 
 ### First:
  * Recommended install the La Sierra icon pack a La Capitaine's fork available in https://github.com/btd1337/La-Sierra-Icon-Theme or/and La Capitaine Icon Theme: https://github.com/keeferrourke/la-capitaine-icon-theme.
- * Recommended install San Francisco Fonts, available in https://github.com/AppleDesignResources/SanFranciscoFont
+ * Recommended install San Francisco Fonts, available in https://github.com/RamenCoders/ElemMacOS-Tweak/tree/master/Fonts/SanFranciscoFont-master
  * Recommended install Cairo Dock and the theme Cairo-Dock macOS Sierra Style available in https://github.com/btd1337/Cairo-Dock-macOS-Sierra-Style
 
 
@@ -43,8 +43,24 @@ Clone the repository for folder ~/.themes/
 Set theme:
 
     $ gsettings set org.gnome.desktop.interface gtk-theme 'eOS-Sierra-Gtk'
+    
+### Fourth:
+Clone/Download Fonts and Install:
 
-### Uninstall?
+    Download the fonts https://github.com/RamenCoders/ElemMacOS-Tweak/tree/master/Fonts/SanFranciscoFont-master
+    then install them, to install multiple fonts system wide: ttf files:
+
+    $ sudo cp ./yourpath/*.ttf /usr/share/fonts/truetype/  
+      
+   opentype:
+
+    $ sudo cp ./yourpath/*.otf /usr/share/fonts/opentype/
+   And then:
+
+    $ sudo fc-cache -fv
+
+
+### Looking to uninstall the theme instead?
     $ gsettings set org.gnome.desktop.interface gtk-theme 'elementary'
     $ rm -R ~/.themes/eOS-Sierra-Gtk
 
