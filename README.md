@@ -1,5 +1,5 @@
-# MacOS Sierra -Tweak  Gtk
-For ElementaryOS using Debian, unleashing the inspired macOS looking theme for your desktop -- Built on "Ubuntu 16.04.3 LTS"
+# ElementaryOS Sierra -Tweak Gtk
+
 
 _*Contains appearance correction for GTK applications_
 
