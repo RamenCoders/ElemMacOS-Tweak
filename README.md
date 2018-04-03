@@ -30,7 +30,7 @@ _*Contains appearance correction for GTK applications_
 
 ### First:
  * Recommended install the La Sierra icon pack a La Capitaine's fork available in https://github.com/btd1337/La-Sierra-Icon-Theme or/and La Capitaine Icon Theme: https://github.com/keeferrourke/la-capitaine-icon-theme.
- * Recommended install San Francisco Fonts, available in https://github.com/RamenCoders/ElemMacOS-Tweak/tree/master/Fonts/SanFranciscoFont-master
+ * Recommended install San Francisco Fonts, available in ./RamenCoders/ElemMacOS-Tweak/tree/master/Fonts/SanFranciscoFont-master
  * Recommended install Cairo Dock and the theme Cairo-Dock macOS Sierra Style available in https://github.com/btd1337/Cairo-Dock-macOS-Sierra-Style
 
 
